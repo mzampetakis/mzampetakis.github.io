@@ -1,11 +1,5 @@
 ---
 title: About
-
-# The About page
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT License
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+I am a software engineer with more then 7 years of experience mainly in developing web services and full stack wev applications. Solving problems and designing optimal solutions using clean code guidelines are my favourite tasks as well as developing, expanding and maintaining software with evolving technologies.
