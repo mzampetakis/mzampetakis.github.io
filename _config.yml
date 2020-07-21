@@ -9,11 +9,10 @@
 
 title: Michalis Zampetakis                          # the main title
 
-tagline: Something to talk about
+tagline: Curiosity Driven
 
 description: >-                        # used by seo meta and the atom feed
-  Always evolve, face challenges (of any kind) and solve problems.  
-  Love coding, IoT, bicycling and LEGOs.
+  This is Michalis Zampetakis's personal web page and blog.
 
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://mzampetakis.github.io'
@@ -36,7 +35,7 @@ social:
     - http://mzampetakis.com
     - https://twitter.com/mzampetakis
     - https://github.com/mzampetakis
-    # - https://www.linkedin.com/in/mzampetakis/
+    - https://www.linkedin.com/in/mzampetakis/
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
