@@ -2,7 +2,7 @@
 title: About
 ---
 
-I am a software engineer with a passion on software and technology! I am currently working at [Enartia](https://enartia.com) as a beckend SW engineer. Solving challenging problems and improving code development process is what I mostly love to do. 
+I am a software engineer with a passion on software and technology! I am currently working at [Enartia](https://enartia.com) as a beckend SW engineer. Solving challenging problems and improving code development lifecycle is what I mostly love to do. 
 
 In my free time I enjoy spending time with my family, cycling and "playing" with LEGO's.
 Also, I am (trying) to [contribute to OSS](https://github.com/mzampetakis?tab=repositories) and co-organizing the [DevStaff Community](https://devstaff.gr).
