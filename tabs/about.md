@@ -2,6 +2,11 @@
 title: About
 ---
 
-I am a software engineer with more then 7 years of experience mainly in developing web services and full stack web applications. Solving problems and designing optimal solutions using clean code guidelines are my favourite tasks as well as developing, expanding and maintaining software with evolving technologies.
+I am a software engineer with a passion on software and technology! I am currently working at [Enartia](https://enartia.com) as a beckend SW engineer. Solving challenging problems and improving code development process is what I mostly love to do. 
 
-You can find out more about me in any of my social profiles appearing at the bottom left corner of the site of at [my personal website](http://mzampetakis.com/).
+In my free time I enjoy spending time with my family, cycling and "playing" with LEGO's.
+Also, I am (trying) to [contribute to OSS](https://github.com/mzampetakis?tab=repositories) and co-organizing the [DevStaff Community](https://devstaff.gr).
+
+You can find out more about me in any of my social profiles appearing at the bottom left corner of this site.
+
+>Always evolve, face challenges (of any kind) and solve problems.
