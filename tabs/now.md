@@ -1,5 +1,6 @@
 ---
 title: Now
+description: This is a now page, aka what I’m doing at this period.
 ---
 
 This is a [now page](https://nownownow.com/about).

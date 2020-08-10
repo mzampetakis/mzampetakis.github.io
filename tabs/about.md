@@ -1,5 +1,6 @@
 ---
 title: About
+description: Hey I am Michalis Zazmptakis, a software engineer with a passion on software and technology.
 ---
 
 I am a software engineer with a passion on software and technology! I am currently working at [Enartia](https://enartia.com) as a beckend SW engineer. Solving challenging problems and improving code development lifecycle is what I mostly love to do. 
