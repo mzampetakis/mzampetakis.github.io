@@ -63,20 +63,16 @@ layout: page
         </a>
       </div>
       <p>
-      {% assign _content = post.content %}
-      {% include no-linenos.html %}
-      {{ _content | markdownify | strip_html | truncate: 200 }}
+        {% include no-linenos.html content=post.content %}
+        {{ content | markdownify | strip_html | truncate: 200 }}
       </p>
     </div>
 
     <div class="post-meta text-muted">
       <!-- posted date -->
       <i class="far fa-clock fa-fw"></i>
-      <span class="timeago" data-toggle="tooltip" data-placement="bottom"
-        title="{{ post.date | date: site.data.date_format.tooltip }}">
-      {{ post.date | date: site.data.date_format.post }}
-      <i class="unloaded">{{ post.date | date_to_xmlschema }}</i>
-      </span>
+      {% include timeago.html date=post.date tooltip=true %}
+
       <!-- page views -->
       {% if site.google_analytics.pv.enabled %}
       <i class="far fa-eye fa-fw"></i>
