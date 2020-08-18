@@ -172,6 +172,10 @@ $prompt-newer: "{{ site.data.label.post.button.next }}";
     color: var(--relate-post-date);
   }
 
+  .timeread {
+    color: var(--relate-post-date);
+  }
+
   p {
     font-size: .9rem;
     margin-bottom: .5rem;

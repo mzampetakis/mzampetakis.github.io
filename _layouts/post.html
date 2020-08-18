@@ -44,12 +44,15 @@ layout: default
         {% endfor %}
 
         {% if lastmod %}
-        <div>
-          Updated
-          {% include timeago.html date=lastmod class="lastmod" tooltip=true %}
-        </div>
+        <!-- <div> -->
+          <!-- Updated -->
+          <!-- {% include timeago.html date=lastmod class="lastmod" tooltip=true %} -->
+        <!-- </div> -->
         {% endif %}
-
+        <div>
+          {% include timeread.html content=page.content %}
+        </div>
+        
         <!-- page views -->
         {% if site.google_analytics.pv.enabled %}
         <div>
