@@ -2,6 +2,7 @@
 title: Hello Blog
 description: Hey everyone 👋🏻! This is my first attempt to write my own thoughts and various things I am learning about.
 image: /assets/posts/Hello-Blog/blog.jpg
+show_image_post: false
 date: 2020-07-14 23:20:00 +0300
 categories: []
 tags: [blogging]

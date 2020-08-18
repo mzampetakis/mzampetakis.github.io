@@ -61,7 +61,7 @@ layout: default
       </div> <!-- .post-meta -->
 
       <div class="post-content">
-        {% if page.image %}
+        {% if page.image and page.show_image_post %}
           <img src="{{ page.image }}">
         {% endif %}
         <!-- Using lozad. See: <https://github.com/ApoorvSaxena/lozad.js#usage> -->

@@ -1,14 +1,16 @@
 ---
 title: Log Requests in Go
 description: Log requests in Golang using an HTTP middleware.
+image: /assets/posts/Log-Requests-in-Go/railway.jpg
+show_image_post: false
 date: 2020-08-17 23:40:00 +0300
 categories: []
 tags: [golang,coding]
 ---
 
-It's a common sense that logging your HTTP request in your application is necessary. The reasons for doing so are numerous. Error reporting, tracing, monitoring, performance tuning and so on.
+It's a common sense that logging your HTTP request in your application is essential. The reasons for doing so are numerous. Error reporting, tracing, monitoring, performance tuning and so on.
 
-One of the easiest way to do this in Go is using an HTTP middleware. Bellow we will show a simple but elegant way of doing so!
+One of the easiest way to do this in Go is by using an HTTP middleware. Bellow we will show a simple but elegant way of doing it!
 
 ## What is a middleware
 
@@ -22,7 +24,35 @@ So, an HTTP middleware allows us to organize this functionality in a higher leve
 
 A minimum middleware set up in Go requires setting up the handler and a handle function with the desired middleware.
 
-![alt text](/assets/posts/Log-Requests-in-Go/middleware.png "A sample middleware")
+```go
+package main
+
+import (
+	"log"
+	"net/http"
+)
+
+func myMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		log.Println("Entering middleware")
+		next.ServeHTTP(w, r)
+		log.Println("Leaving middlewareOne")
+	})
+}
+
+func handleFunc(w http.ResponseWriter, r *http.Request) {
+	log.Println("Executing handleFunc")
+	w.Write([]byte("OK"))
+}
+
+func main() {
+	mux := http.NewServeMux()
+	handler := http.HandlerFunc(handleFunc)
+	mux.Handle("/", myMiddleware(handler))
+	log.Println("Listening on :8000...")
+	log.Fatal(http.ListenAndServe(":8000", mux))
+}
+```
 
 The magic happens in line `24` where we enforce the `myMiddleware` to be used by our handler for our `handler`. Running the above will give us the following result:
 
@@ -39,9 +69,19 @@ This makes sense how can we exploit middlewares to achieve the desired result ev
 
 Back to the request logging we require some request details to be logged in our application. Thankfully all this information is within `*http.Request`. So for our example we could log the request using this middleware:  
 
-![alt text](/assets/posts/Log-Requests-in-Go/log_middleware.png "A request log middleware")
+```go
+func myMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		log.Println("Entering middleware")
+		log.Printf("%s : Method: %s | URL: %s%s | Proto: %s",
+			time.Now().Format(time.RFC3339), r.Method, r.Host, r.URL, r.Proto)
+		next.ServeHTTP(w, r)
+		log.Println("Leaving middleware")
+	})
+}
+```
 
-At lines `4` & `5` the middleware logs a Datetime alongside some basic information of the request. The output we get is as follows:
+At line `4` the middleware logs a Datetime alongside some basic information of the request. The output we get is as follows:
 
 ```console
 2020/08/12 20:44:15 Listening on 8000...
@@ -50,6 +90,8 @@ At lines `4` & `5` the middleware logs a Datetime alongside some basic informati
 2020/08/12 20:44:20 Executing handleFunc
 2020/08/12 20:44:20 Leaving middleware
 ```
+
+> There is no need to log explicitly date and time as `log` already prefixes our logging string.
 
 ### Tracing support
 
@@ -61,7 +103,19 @@ More about the Go's context package can be found [here](https://golang.org/pkg/c
 
 The following middleware generates a uuid, logs at the request logging nad passes it inside the request's context.
 
-![alt text](/assets/posts/Log-Requests-in-Go/log_ctx_middleware.png "A request log middleware with context")
+```go
+func myMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		log.Println("Entering myMiddleware")
+		requestID := uuid.New()
+		log.Printf("%s : %s: Method: %s | URL: %s%s | Proto: %s",
+			time.Now().Format(time.RFC3339), requestID, r.Method, r.Host, r.URL, r.Proto)
+		ctx := context.WithValue(r.Context(), "request-id", requestID)
+		next.ServeHTTP(w, r.WithContext(ctx))
+		log.Println("Leaving myMiddleware")
+	})
+}
+```
 
 Now, the request log prints the generated request uuid and has the following format:
 
@@ -83,4 +137,4 @@ We can now easily log the response of each handler. Just by extending our middle
 
 As mentioned earlier, middlwares have many use cases. Logging is just one of them. Middlwares are used in most API services in Go for authentication and authorization, for compression, for recovery for content type and many more cases. 
 
-Extra caution should be taken when using multiple middlewares as well as when group of routes are used in order to avoid surprises!
+Extra caution should be taken when using multiple middlewares as well as when group of routes are used!
