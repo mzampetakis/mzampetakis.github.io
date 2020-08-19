@@ -129,6 +129,8 @@ Now, the request log prints the generated request uuid and has the following for
 
 From this point we have access to this request-id within our handler function allowing us to log with this unique id.
 
+> Keep in mind that now our middleware has a double role. The first is to log each request and the second on is to populate the context with a `request-id`. This might not be a preferred solution, however, it was easier to demonstrate it here like this.
+
 At this point all seem good. That's not completely correct. As seen [heat this issue](https://go-review.googlesource.com/c/go/+/30084):
 
 >Using a context.Context Value key of type string is a terrible idea and walks into the minefield of a global namespace. We should've outlawed it from day 1.
