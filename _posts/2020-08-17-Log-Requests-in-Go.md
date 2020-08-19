@@ -101,7 +101,7 @@ Moving a step forward for our request logger we would like to add some tracing i
 
 More about the Go's context package can be found [here](https://golang.org/pkg/context/).
 
-The following middleware generates a uuid, logs at the request logging nad passes it inside the request's context.
+The following middleware generates a uuid, logs at the request logging and passes it inside the request's context.
 
 ```go
 func myMiddleware(next http.Handler) http.Handler {
@@ -165,6 +165,6 @@ We can now easily log the response of each handler. Just by extending our middle
 
 ## Conclusion
 
-As mentioned earlier, middlwares have many use cases. Logging is just one of them. Middlwares are used in most API services in Go for authentication and authorization, for compression, for recovery for content type and many more cases. 
+As mentioned earlier, middlewares have many use cases. Logging is just one of them. Middlwares are used in most API services in Go for authentication and authorization, for compression, for recovery for setting content type and many more cases. 
 
 Extra caution should be taken when using multiple middlewares as well as when group of routes are used!
