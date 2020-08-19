@@ -129,6 +129,34 @@ Now, the request log prints the generated request uuid and has the following for
 
 From this point we have access to this request-id within our handler function allowing us to log with this unique id.
 
+At this point all seem good. That's not completely correct. As seen [heat this issue](https://go-review.googlesource.com/c/go/+/30084):
+
+>Using a context.Context Value key of type string is a terrible idea and walks into the minefield of a global namespace. We should've outlawed it from day 1.
+>All context value keys should be made from user-defined types.
+
+Which means we have to use an alternative/custom type for our `request-id` context key.
+
+The following could solve the issue we just describef by introducing the `RequestIDKey` type and use it when setting the value into context.
+
+```go
+// RequestIDKey type is the type used as key to store request-id into context
+type RequestIDKey string
+
+func myMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		log.Println("Entering myMiddleware")
+		requestID := uuid.New()
+		log.Printf("%s : %s: Method: %s | URL: %s%s | Proto: %s",
+			time.Now().Format(time.RFC3339), requestID, r.Method, r.Host, r.URL, r.Proto)
+		requestIDKey := RequestIDKey("request-id")
+		ctx := context.WithValue(r.Context(), requestIDKey, requestID)
+		next.ServeHTTP(w, r.WithContext(ctx))
+		log.Println("Leaving myMiddleware")
+	})
+}
+```
+From now on, the same type `RequestIDKey` should be used in order to retrieve the `request-id` whenever needed!
+
 ## Log response
 
 We can now easily log the response of each handler. Just by extending our middleware after the `log.Println("Leaving middleware")` line and using the `http.ResponseWriter` object. We could use the same middleware or another one depending on our case.
