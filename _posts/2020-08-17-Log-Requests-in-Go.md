@@ -1,6 +1,6 @@
 ---
 title: Log Requests in Go
-description: Log requests in Golang using an HTTP middleware.
+description: Log requests in Golang using an HTTP middleware with tracing support.
 image: /assets/posts/Log-Requests-in-Go/railway.jpg
 show_image_post: false
 date: 2020-08-17 23:40:00 +0300

@@ -8,8 +8,7 @@ categories: []
 tags: [blogging]
 ---
 
-## Hello Blogging World
-Hey everyone 👋🏻!  
+Hey everyone 👋🏻! I am [Michalis Zampetakis](/tabs/about).  
 This is my first attempt to write my own thoughts and various things I am learning about or trying from time to time! I hope you will enjoy this and, why not, reach me out to discuss some of these topics that, without doubt, interest me!
 
 ### Topics
