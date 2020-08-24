@@ -6,7 +6,7 @@ show_image_post: true
 date: 2020-09-01 19:45:00 +0300
 published: false
 categories: []
-tags: [toy-project,golang,Google-Drive,oAuth,images,LEGO]
+tags: [toy-project,golang,coding,oAuth,image-processing,LEGO]
 ---
 
 Just imagine if you could have on your living's room TV an aquarium! Wouldn't that be nice, especially during the hot period of summertime? What about if you could add digital fishes and decorative stuff in this aquarium that you could create (physically or by design)?
@@ -77,7 +77,7 @@ For each new image a background separation and removal algorithm removes the bac
 
 This is the image transformation that occurs to each retrieved asset:
 
-![alt text](/assets/posts/Aquago-A-Toy-Project/imgtransform.png "Image Transformation process")
+![Image Transformation process](/assets/posts/Aquago-A-Toy-Project/imgtransform.png)
 
 Then, all transformed images/assets are placed within the aquarium with some specific and some random initial values as described in the following sections.
 
@@ -127,14 +127,14 @@ for idx, b := range g.bubbles {
 
 All this resulted in this beautiful result:
 
-![alt text](/assets/posts/Aquago-A-Toy-Project/bubbles.gif "Moving Bubbles")
+![Moving Bubbles](/assets/posts/Aquago-A-Toy-Project/bubbles.gif)
 
 ### Background Items
 Background items are retrieved through Google Drive at bootstrap and are checked for newly added every minute. If any new asset is found it is processed and then randomly is being placed into the aquarium. These items are able to be repositioned by dragging them so we could decorate the aquarium based on our mood!
 
 > These items are a bit dull as their only option is the image used and their position.
 
-![alt text](/assets/posts/Aquago-A-Toy-Project/bg.png "BG assets")
+![BG assets](/assets/posts/Aquago-A-Toy-Project/bg.png)
 
 ### Foreground Items
 Time to give some life to our aquarium! This one was the biggest challenge! Digital fishes should move around the aquarium to different directions with different speeds and angles and all of them could be randomly change - something as real fish in an aquarium! So, as you can see, the fish structure holds oll those relevant data alongside some basic information for current position and it's name (that was the file's name)!
@@ -213,7 +213,7 @@ for _, f := range g.fishes {
 Time for fun 🎆  
 Combining all those we have something that meets our requirements:
 
-![alt text](/assets/posts/Aquago-A-Toy-Project/aquago.gif "Aquago in action")
+![Aquago in action](/assets/posts/Aquago-A-Toy-Project/aquago.gif)
 
 ## Improvements
 * The first major improvement that has to be done has to do with the background removal algorithm (contour extraction could be used here). There are numerous algorithms to use, however, we have to keep performance in mind which is critical at least at startup time.
