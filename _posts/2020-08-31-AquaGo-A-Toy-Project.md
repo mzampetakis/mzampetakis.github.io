@@ -4,7 +4,7 @@ description: A Digital Aquarium written in pure golang!
 image: /assets/posts/Aquago-A-Toy-Project/auqago.png
 show_image_post: true
 date: 2020-08-31 22:40:00 +0300
-published: false
+published: true
 categories: []
 tags: [toy-project,golang,coding,oAuth,image-processing,LEGO]
 ---
