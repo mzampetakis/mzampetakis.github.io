@@ -3,13 +3,13 @@ title: AquaGo - A Toy Project
 description: A Digital Aquarium written in pure golang!
 image: /assets/posts/Aquago-A-Toy-Project/auqago.png
 show_image_post: true
-date: 2020-09-01 19:45:00 +0300
+date: 2020-08-31 22:40:00 +0300
 published: false
 categories: []
 tags: [toy-project,golang,coding,oAuth,image-processing,LEGO]
 ---
 
-Just imagine if you could have on your living's room TV an aquarium! Wouldn't that be nice, especially during the hot period of summertime? What about if you could add digital fishes and decorative stuff in this aquarium that you could create (physically or by design)?
+Just imagine if you could have on your living's room TV an aquarium! Wouldn't that be nice, especially during the hot period of summertime? What about if you could add digital fishes and decorative stuff in this aquarium that you could create (physically or by design) with you own style?
 
 This is more or less what I got up with during this summer! 
 > A real toy project!
