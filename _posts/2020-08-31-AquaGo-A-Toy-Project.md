@@ -215,10 +215,10 @@ Combining all those we have something that meets our requirements:
 
 ![Aquago in action](/assets/posts/Aquago-A-Toy-Project/aquago.gif)
 
-## Challenges faced
-The most challenging aspect of this project was the part of designing. One basic requirement should be met - be as easy as possible to update aquariums content. This was the reason that google drive set up, background removal algorithm incorporated, polling for new images added and so on...
+## Project's Challenges
+The most challenging aspect of this project was the part of designing. One basic requirement should be met - be as easy as possible to update aquarium's content. This was the reason that google drive set up, background removal algorithm incorporated, polling for new images added and so on...
 
-The next challenging part was to make this app run effortlessly by any user. So easy as grabbing the code, setting up Google Drive's oAuth and run it.
+The next challenging part was to make this app run effortlessly by any user. So easy as grabbing the code, setting up Google Drive's oAuth and run it!
 
 The last one had to do with the gaming part of the app. Now being a game developer made me try harder to get up with how are game engines (such as ebiten) usually work. To be honest, I really enjoyed this part as this introduced me in a new field!
 
