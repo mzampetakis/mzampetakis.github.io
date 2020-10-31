@@ -65,7 +65,7 @@ func TestCheckAndDeleteExpiredKeys(t *testing.T) {
 		DeletePrecision: precision,
     }
     ds.Data["akey"]=mapValue{
-		expiration: ds.Clock.Now().Add(500*time.Millisecond),
+        expiration: ds.Clock.Now().Add(500*time.Millisecond),
 		value:      "avalue",
     }
     time.Sleep(300 * time.Millisecond)
@@ -106,9 +106,9 @@ So, `Datastore` should now have the following form:
 
 ```go
 type DataStore struct {
-	Data            map[string]mapValue
+    Data            map[string]mapValue
     DeletePrecision time.Duration
-	Clock           Clock
+    Clock           Clock
 }
 
 // Clock is an interface that provides a single function
