@@ -15,7 +15,7 @@ description: >-                        # used by seo meta and the atom feed
   This is Michalis Zampetakis's personal web page and blog.
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
-url: 'https://mzampetakis.com'
+url: 'https://mzampetakis.github.io'
 
 author: Michalis Zampetakis                  # change to your full name
 
@@ -174,7 +174,7 @@ compress_html:
   profile: false
   blanklines: false
   ignore:
-    envs: [production]
+    envs: [development]
 
 exclude:
   - vendor
