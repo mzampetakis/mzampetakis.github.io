@@ -1,6 +1,8 @@
 ---
 title: Now
 description: This is a now page, aka what I’m doing at this period.
+icon: fas fa-time
+order: 4
 ---
 
 This is a [now page](https://nownownow.com/about).
