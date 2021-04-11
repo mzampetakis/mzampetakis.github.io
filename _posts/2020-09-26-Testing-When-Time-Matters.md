@@ -64,7 +64,7 @@ func TestCheckAndDeleteExpiredKeys(t *testing.T) {
 		Data:            map[string]mapValue{},
 		DeletePrecision: precision,
     }
-    ds.Data["akey"]=mapValue{
+    ds.Data["akey"] = mapValue{
         expiration: ds.Clock.Now().Add(500*time.Millisecond),
 		value:      "avalue",
     }
@@ -189,7 +189,7 @@ Another commonly process that is using when we have to test a function which req
 >
 >In short, mocking is creating objects that simulate the behavior of real objects.
 
-In our case we could use one of the available mocking libraries. Some of theme a listed bellow:
+In our case we could use one of the available mocking libraries. Some of theme are listed bellow:
 * [mock](https://github.com/golang/mock)
 * [testify](https://github.com/stretchr/testify)
 * [monkey](https://github.com/bouk/monkey)
