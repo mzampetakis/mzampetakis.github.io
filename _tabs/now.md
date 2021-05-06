@@ -1,7 +1,7 @@
 ---
 title: Now
 description: This is a now page, aka what I’m doing at this period.
-icon: fas fa-time
+icon: fas fa-clock
 order: 4
 ---
 
