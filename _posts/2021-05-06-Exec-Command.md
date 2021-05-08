@@ -5,7 +5,7 @@ image: /assets/posts/Exec-Command/cmd.jpg
 show_image_post: false
 date: 2021-05-06 19:40:00 +0300
 categories: []
-tags: [golang,coding]
+tags: [golang,coding,shell]
 ---
 
 One of the key features of Go is the considerably rich standard library. 
