@@ -117,7 +117,7 @@ processing.
 There are cases where we have to provide extra arguments to our command for execution. This is feasible using the same 
 `exec.Command()` function where arguments can be provided after the command's name: 
 `func Command(name string, arg ...string) *Cmd`. Each argument should be supplied as a different `arg`. For instance 
-if we have to set up a command for the `ls -al /tmp/` command we have to invoke `exec.Command("ls", "-al", "/tam/")`.  
+if we have to set up a command for the `ls -al /tmp/` command we have to invoke `exec.Command("ls", "-al", "/tmp/")`.  
 
 > exec.Command() is an example of a Variadic Function. Variadic Functions can be called with any number of trailing 
 > arguments, therefore, we can pass in as many arguments to our initial command as we desire.
