@@ -1,8 +1,9 @@
 ---
 title: Deep Dive in Go Channels
 description: A brief deep dive in Go Channels with examples and common error cases.
-image: /assets/posts/Deep-Dive-in-Go-Channels/channels.jpg
-show_image_post: false
+image:
+  src: /assets/posts/Deep-Dive-in-Go-Channels/channels.jpg
+  show_in_post: false
 date: 2020-10-31 08:55:00 +0300
 categories: []
 tags: [golang,coding]

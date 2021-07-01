@@ -1,8 +1,9 @@
 ---
 title: Exec.Command
 description: Going a step further from executing system commands through Go.
-image: /assets/posts/Exec-Command/cmd.jpg
-show_image_post: false
+image:
+  src: /assets/posts/Exec-Command/cmd.jpg
+  show_in_post: false
 date: 2021-05-06 19:40:00 +0300
 categories: []
 tags: [golang,coding,shell]

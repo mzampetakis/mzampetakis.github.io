@@ -1,14 +1,8 @@
 ---
 title: About
-description: Hey I am Michalis Zazmptakis, a software engineer with passion on software and technology.
+description: Hey, I am Michalis Zazmptakis, a software engineer with passion on software and technology.
 icon: fas fa-info
 order: 5
-
-# The About page
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT License
 ---
 
 I am a software engineer with a passion on software and technology! I am currently working at [Enartia](https://enartia.com) as a beckend SW engineer. Solving challenging problems and improving code development lifecycle is what I mostly love to do. 
