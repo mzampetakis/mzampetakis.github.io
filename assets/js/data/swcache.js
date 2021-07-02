@@ -30,7 +30,6 @@ const resource = [
   {% assign favicon_path = "/assets/img/favicons" | relative_url %}
 
   '{{ favicon_path }}/android-chrome-192x192.png',
-  '{{ favicon_path }}/android-chrome-512x512.png',
   '{{ favicon_path }}/apple-touch-icon.png',
   '{{ favicon_path }}/favicon-16x16.png',
   '{{ favicon_path }}/favicon-32x32.png',
