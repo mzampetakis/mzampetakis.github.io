@@ -189,6 +189,10 @@ We can fix this by altering our first test case to:
 },
 ```
 
+Here is a demo of how our source code updated while running the mutation testing:
+
+![mutating source code](/assets/posts/Testing-the-Tests/mutating.gif)
+
 Also if we remove these test cases from our test (which also leaves code's test coverage up to 100%):
 ```go
 {
