@@ -4,7 +4,7 @@ description: Embed Version Control System information info in the Go binary.
 image:
   src: /assets/posts/Embedding-VCS-Info-in-Binary/embed.jpg
   show_in_post: false
-date: 2021-01-16 12:15:00 +0200
+date: 2022-01-16 12:15:00 +0200
 categories: []
 tags: [golang,coding]
 ---
