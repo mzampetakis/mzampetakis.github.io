@@ -2,7 +2,7 @@
 title: Hello Blog
 description: Hey everyone 👋🏻! This is my first attempt to write my own thoughts and various things I am learning about.
 image:
-  src: /assets/posts/Hello-Blog/blog.jpg
+  path: /assets/posts/Hello-Blog/blog.jpg
   show_in_post: false
 date: 2020-07-14 23:20:00 +0300
 categories: []

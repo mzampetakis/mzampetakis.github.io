@@ -2,7 +2,7 @@
 title: Embedding VCS Info in Go binary
 description: Embed Version Control System information info in the Go binary.
 image:
-  src: /assets/posts/Embedding-VCS-Info-in-Binary/embed.jpg
+  path: /assets/posts/Embedding-VCS-Info-in-Binary/embed.jpg
   show_in_post: false
 date: 2022-01-16 12:15:00 +0200
 categories: []
@@ -186,6 +186,7 @@ that this app might use. In our case we have used the `git` VCS and there are so
 attribute signifies if the source has been modified or not since the last commit.
 
 ## Sum Up
+
 We have seen how we can use `ldflags` to inject valuable information into Go binaries at build time. 
 Using this feature we can pass through feature flags, environment information, versioning information, and more without altering our source code. Apart from this, from Go 1.18, we can exploit the `BuildSetting` available through the
 `runtime/debug.BuildInfo` in order to retrieve valuable information about our VCS state at build time. Of course, we

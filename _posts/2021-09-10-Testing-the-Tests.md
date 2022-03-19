@@ -2,7 +2,7 @@
 title: Testing the Tests
 description: If we use tests to test code, how can we test our tests?
 image:
-  src: /assets/posts/Testing-the-Tests/mobius.jpg
+  path: /assets/posts/Testing-the-Tests/mobius.jpg
   show_in_post: false
 date: 2021-09-10 21:15:00 +0300
 categories: []

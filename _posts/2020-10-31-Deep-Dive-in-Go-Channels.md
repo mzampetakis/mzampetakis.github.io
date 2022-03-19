@@ -2,7 +2,7 @@
 title: Deep Dive in Go Channels
 description: A brief deep dive in Go Channels with examples and common error cases.
 image:
-  src: /assets/posts/Deep-Dive-in-Go-Channels/channels.jpg
+  path: /assets/posts/Deep-Dive-in-Go-Channels/channels.jpg
   show_in_post: false
 date: 2020-10-31 08:55:00 +0300
 categories: []
