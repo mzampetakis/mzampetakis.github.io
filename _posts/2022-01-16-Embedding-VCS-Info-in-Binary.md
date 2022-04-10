@@ -87,7 +87,7 @@ assistance when investigating issues.
 > It is more convenient to automate the build process while using -ldfags so that the binary includes all the required 
 > information. A make file might be a possible solution!
 
-A worth mentioning tool here is the (go tool nm)[https://pkg.go.dev/cmd/nm]. 
+A worth mentioning tool here is the [go tool nm](https://pkg.go.dev/cmd/nm). 
 This tool lists the symbols defined or used by an object file, archive, or executable. For our executable we can invoke 
 it like this:
 ```console
@@ -134,8 +134,7 @@ $ ./main
 ## Using the Debug package
 
 From Go 1.18 onwards Go provides a structure that has been updated to include a new field Settings `[]debug.BuildSetting`
-The (runtime/debug.BuildInfo)[https://pkg.go.dev/runtime/debug@master#BuildInfo] returned by [runtime/debug.ReadBuildInfo()]
-(https://pkg.go.dev/runtime/debug@master#ReadBuildInfo) returns a key-value pairs describing a binary.
+The [runtime/debug.BuildInfo](https://pkg.go.dev/runtime/debug@master#BuildInfo) returned by [runtime/debug.ReadBuildInfo()](https://pkg.go.dev/runtime/debug@master#ReadBuildInfo) returns a key-value pairs describing a binary.
  In order to see this new feature in action we can use the following source:
  ```go
 package main
