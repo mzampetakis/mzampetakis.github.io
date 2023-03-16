@@ -2,7 +2,7 @@
 title: About
 description: Hey, I am Michalis Zazmptakis, a software engineer with passion on software and technology.
 icon: fas fa-info
-order: 5
+order: 6
 ---
 
 I am a software engineer with a passion on software and technology! I am currently working at [Sunlight.io](https://sunlight.io/) as an API SW engineer. Solving challenging problems and improving code development lifecycle is what I mostly love to do. 
