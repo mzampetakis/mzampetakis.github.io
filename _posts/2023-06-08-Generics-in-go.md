@@ -113,9 +113,8 @@ minDuration := Min(time.Minute*59, time.Hour)
 ```
 
 Will give:
-```
-time.Duration does not satisfy uint | int | int64 (possibly missing ~ for int64 in uint | int | int64) 
-```
+> time.Duration does not satisfy uint, int, int64 (possibly missing ~ for int64 in uint, int, int64) 
+{: .prompt-danger }
 
 Go offers another wildcard here for the rescue. The tilde `~` character is used in order to tell the compiler that uint, int, int64, or any type whose underlying type is one of those types can be used.
 
