@@ -2,7 +2,7 @@
 title: Generics in Go
 description:
 image:
-  path: /assets/posts/Generics-in-Go/way-selections.jpg
+  path: /assets/posts/Generics-In-Go/way-selections.jpg
   show_in_post: false
 date: 2023-06-08 18:10:00 +0300
 categories: []
