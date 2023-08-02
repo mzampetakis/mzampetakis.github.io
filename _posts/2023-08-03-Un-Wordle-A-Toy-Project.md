@@ -16,11 +16,11 @@ Each day a new puzzle was available and having such a simple rule set, it rapidl
 Its instructions were presented like this:
 ![wordle instructions](/assets/posts/Un-Wordle-A-Toy-Project/instructions.png)
 
-It was pretty common back then for people to share their results using the color code (or any other emoji styled output) that was used as the game's results:
-⬜⬜⬜🟨⬜
-🟨⬜🟨🟨⬜
-🟩🟩🟨🟨🟩
-🟩🟩🟩🟩🟩
+It was pretty common back then for people to share their results using the color code (or any other emoji styled output) that was used as the game's results:  
+⬜⬜⬜🟨⬜  
+🟨⬜🟨🟨⬜  
+🟩🟩🟨🟨🟩  
+🟩🟩🟩🟩🟩  
 
 ## The solver: Unwordle
 
