@@ -8,7 +8,8 @@ order: 5
 This page lists the book I have read over time and are related to SW engineering (directly or indirectly 😉).
 This list helps me to keep track of the books I 've read in the past and also recall them.
 
-* [Noise: A Flaw in Human Judgment](https://www.amazon.com/Noise-Book-Authors-Thinking-Nudge/dp/B0B565PD2M)
+* [Software Engineering at Google](https://www.amazon.com/Software-Engineering-Google-Lessons-Programming/dp/1492082791) 👈🏻
+* [Noise: A Flaw in Human Judgment](https://www.amazon.com/Noise-Book-Authors-Thinking-Nudge/dp/B0B565PD2M) 👈🏻
 * [Release It!: Design and Deploy Production-Ready Software](https://www.amazon.com/Release-Production-Ready-Software-Pragmatic-Programmers/dp/0978739213)
 * [Algorithms to Live by. The computer science of human decisions.](https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1627790365)
 * [The Software Craftsman: Professionalism, Pragmatism, Pride](https://www.amazon.co.uk/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501)
