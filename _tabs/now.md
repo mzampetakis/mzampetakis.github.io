@@ -12,5 +12,6 @@ This is a [now page](https://nownownow.com/about).
 ## What I’m doing at this period
 * Reading books ([Check out my list of books](/books))
 * Setting up my home automation (using Raspberry pi, Home Assistant and a lot of yaml)
-* Co-organizing [DevStaff](https://devstaff.gr/)'s meetups
-* Working on becoming a better software engineer and colleague
+* Co-organizing [DevStaff](https://devstaff.gr/)'s - The developers Community in Crete meetups
+* (Dis)Organizing the [SoCraTes Crete](https://devstaff.gr/) - An Open Space Unconference about the Craft of making Software
+* Working on becoming a better software engineer, colleague and person
