@@ -4,6 +4,8 @@ Please visit [https://mzampetakis.com](https://mzampetakis.com) to view the cont
 # Development
 Clone this repo and the run
 ```
+sudo gem install bundler:2.4.4
+sudo bundle install
 ./tools/run.sh
 ```
 in order to start a local server of this website.
