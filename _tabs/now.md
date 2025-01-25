@@ -7,7 +7,7 @@ order: 4
 
 This is a [now page](https://nownownow.com/about).
 
->Now pages tells what a person is focused on at this point in their life.
+> Now pages tells what a person is focused on at this point in their life.
 
 ## What I’m doing at this period
 * Reading books ([Check out my list of books](/books))
