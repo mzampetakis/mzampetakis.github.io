@@ -9,11 +9,14 @@ categories: []
 tags: [toy-project,golang,coding]
 ---
 
-## Wordle
-Back in 2021 [Wordle](https://en.wikipedia.org/wiki/Wordle) was a pretty popular online trivia game. Players had six attempts to guess a five-letter word, with feedback given for each guess in the form of colored tiles indicating when letters match or occupy the correct position. 
-Each day a new puzzle was available and having such a simple rule set, it rapidly gain lots of peoples attention.
+Back in 2021 [Wordle](https://en.wikipedia.org/wiki/Wordle) was a pretty popular online trivia game. 
+Players had six attempts to guess a five-letter word, with feedback given for each guess in the form of colored tiles 
+indicating when letters match or occupy the correct position. 
+Each day a new puzzle was available and having such a simple rule set, it rapidly gained lots of peoples' attention.
 
-Its instructions were presented like this:
+## Wordle
+
+Its instructions were really simple and presented like this:
 ![wordle instructions](/assets/posts/Un-Wordle-A-Toy-Project/instructions.png)
 
 It was pretty common back then for people to share their results using the color code (or any other emoji styled output) that was used as the game's results:  

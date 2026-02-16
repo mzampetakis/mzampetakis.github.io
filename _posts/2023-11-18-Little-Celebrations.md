@@ -1,6 +1,6 @@
 ---
 title: Little celebrations for remote workers
-description: We all deserve sharing our joy oubout our little accomplishments!
+description: We all deserve sharing our joy about our little accomplishments!
 date: 2023-11-18 15:40:00 +0200
 categories: []
 tags: [toy-project,script,shell]
