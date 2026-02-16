@@ -15,8 +15,8 @@ collaboration with diverse teams. The process of taking a concept and transformi
 software product is a source of personal satisfaction and fulfillment.
 
 In my free time I enjoy spending time with my family, cycling and "playing" with LEGO's.
-Also, I am a co-organiser of the [DevStaff Community](https://devstaff.gr), a (Dis-)organiser of The 
-[Socrates-Crete 2023](https://socrates-crete.org/) and (trying to) 
+Also, I am a co-organiser of the [DevStaff Community](https://devstaff.gr) since 2017, a (Dis-)organiser of The 
+[Socrates-Crete](https://socrates-crete.org/) since 2023 and (trying to) 
 [contribute to OSS](https://github.com/mzampetakis?tab=repositories).
 
 Also, I am trying to automate things in my home in order to make our lives easier. 
