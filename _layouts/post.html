@@ -28,12 +28,12 @@ script_includes:
       </span>
 
       <!-- lastmod date -->
-      {% if page.last_modified_at and page.last_modified_at != page.date %}
-        <span>
-          {{ site.data.locales[lang].post.updated }}
-          {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
-        </span>
-      {% endif %}
+<!--      {% if page.last_modified_at and page.last_modified_at != page.date %}-->
+<!--        <span>-->
+<!--          {{ site.data.locales[lang].post.updated }}-->
+<!--          {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}-->
+<!--        </span>-->
+<!--      {% endif %}-->
 
       <span>
         <!-- read time -->
@@ -59,12 +59,12 @@ script_includes:
 
       <div class="d-flex justify-content-between">
         <!-- author(s) -->
-        <span>
-          {% if page.author %}
-            {% assign authors = page.author %}
-          {% elsif page.authors %}
-            {% assign authors = page.authors %}
-          {% endif %}
+<!--        <span>-->
+<!--          {% if page.author %}-->
+<!--            {% assign authors = page.author %}-->
+<!--          {% elsif page.authors %}-->
+<!--            {% assign authors = page.authors %}-->
+<!--          {% endif %}-->
 
 <!--          {{ site.data.locales[lang].post.written_by }}-->
 
@@ -82,7 +82,7 @@ script_includes:
 <!--              <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>-->
 <!--            {% endif %}-->
 <!--          </em>-->
-        </span>
+<!--        </span>-->
 
         <div>
           <!-- pageviews -->
