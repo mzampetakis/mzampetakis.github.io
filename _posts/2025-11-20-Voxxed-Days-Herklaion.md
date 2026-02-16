@@ -1,6 +1,6 @@
 ---
-title: Voxxed Days Crete 2023 - Presentation
-description: Are your tests good enough?
+title: Are your tests good enough?
+description: Presentation at Voxxed Days Crete 2025 
 date: 2025-11-20 11:25:00 +0200
 categories: []
 tags: [testing,presentation,golang]
