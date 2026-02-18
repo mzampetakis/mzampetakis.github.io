@@ -20,3 +20,8 @@ This list helps me to keep track of the books I 've read in the past and also ea
 * [Mythical Man-Month, The: Essays on Software Engineering](https://www.amazon.co.uk/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959)
 * [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 * [Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164)
+
+Next in the list of books that I am planning to read:
+
+* [Beyond Cracking the Coding Interview](https://www.amazon.de/-/en/Beyond-Cracking-Coding-Interview-Successfully/dp/195570600X)
+* [Building Microservices: Designing Fine-Grained Systems 1st Edition](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358)
