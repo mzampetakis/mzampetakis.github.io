@@ -1,6 +1,9 @@
 ---
 title: Are your tests good enough?
-description: Presentation at Voxxed Days Crete 2025 
+description: Presentation at Voxxed Days Crete 2025
+image:
+  path: /assets/posts/Voxxed-Days-Crete/voxxed_crete_2025.jpg
+  show_in_post: true
 date: 2025-11-20 11:25:00 +0200
 categories: []
 tags: [testing,presentation,golang]
