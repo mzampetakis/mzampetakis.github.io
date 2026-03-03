@@ -32,7 +32,7 @@ script_includes:
         {% include read-time.html content=content prompt=true lang=lang %}
       </span>
 
-      {% if page.image %}
+      {% if page.image and page.image.show_in_post %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
         {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
         {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
