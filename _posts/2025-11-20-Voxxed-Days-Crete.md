@@ -27,10 +27,9 @@ front of a great audience. The abstract of the presentations was the following:
 > appropriate variations.
 
 You can access the video recording of the presentation [here](https://www.youtube.com/watch?v=B0jSppkIhFc):
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B0jSppkIhFc?si=3yQMb33aamR8E7iP" 
+<iframe class="embed-video" loading="lazy" src="https://www.youtube.com/embed/B0jSppkIhFc?si=3yQMb33aamR8E7iP"
 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 The slides of the presentation are available 
 [here](https://firebasestorage.googleapis.com/v0/b/cfp-dev-mobile-app.firebasestorage.app/o/slide-decks%2Fvdcrete25%2F2625%2FCI6Yan5HRKTmVMTTiXWolNGGX3u2%2Fslides_Are_your_tests_good_enough.pdf_1758986783434.pdf?alt=media&token=83bbf930-60d8-4f00-85c2-3df99473a810) 
